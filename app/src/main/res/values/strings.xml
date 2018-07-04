@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">اداره المبيعات والمشتريات</string>
+    <string name="title_activity_home_page">الصفحه الرئيسيه</string>
+    <string name="title_activity_customers">الزبائن</string>
+    <string name="title_activity_outcomes">المصروفات</string>
+
+    <string-array name="home">
+        <item>الزبائن</item>
+        <item>المصروفات</item>
+        <item>مشتريات</item>
+        <item>مخازن</item>
+        <item>العمال</item>
+        <item>السلف</item>
+        <item>مبيعات يوميه</item>
+        <item>الديون</item>
+        <item>الشيكات</item>
+    </string-array>
+    <string-array name="months">
+        <item>none</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+
+    <string-array name="types">
+        <item>سجاد</item>
+        <item>ستائر</item>
+    </string-array>
+
+    <string-array name="delivered">
+        <item>نعم</item>
+        <item>لا</item>
+    </string-array>
+    <string name="title_activity_buys">المشتريات</string>
+    <string name="title_activity_stores">المخزن</string>
+    <string name="title_activity_debts">الديون</string>
+    <string name="title_activity_employees">العمال</string>
+    <string name="title_activity_payment">السلف</string>
+    <string name="title_activity_exported">الصادر</string>
+    <string name="title_activity_check">الشكات</string>
+
+    <string name="title_activity_sells">المبيعات</string>
+    <string name="title_activity_settings">الاعدادت</string>
+
+</resources>

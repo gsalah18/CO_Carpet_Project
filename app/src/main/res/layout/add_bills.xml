@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_delete"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/id"
+        android:inputType="number"
+        android:hint="رقم الفاتوره"
+        android:background="@android:color/background_light" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cust_names"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:background="@android:color/background_light" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="اضافه البضاعه"
+        android:id="@+id/add_item"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/price"
+        android:enabled="false"
+        android:inputType="numberDecimal"
+        android:hint="قيمه الفاتوره"
+        android:background="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/paid"
+        android:inputType="numberDecimal"
+        android:hint="المدفوع؟"
+        android:background="@android:color/background_light" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="حفظ"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/save"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/save_button"/>
+</LinearLayout>

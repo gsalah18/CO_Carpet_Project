@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_sells"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gs.co_carpet_project.Activites.Activites.Activites.Sells"
+    tools:showIn="@layout/activity_sells">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@id/frame"></FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="رقم المبيعه"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/id"/>
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="التاريخ"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/date"/>
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout"
+        android:id="@+id/listview"></ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="Add"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</RelativeLayout>

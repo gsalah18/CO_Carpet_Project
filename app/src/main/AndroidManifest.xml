@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gs.co_carpet_project">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activites.Activites.Activites.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.HomePage"
+            android:label="@string/title_activity_home_page"
+            android:parentActivityName=".Activites.Activites.Activites.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Customers"
+            android:label="@string/title_activity_customers"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Outcomes"
+            android:label="@string/title_activity_outcomes"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Buys"
+            android:label="@string/title_activity_buys"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Stores"
+            android:label="@string/title_activity_stores"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Debts"
+            android:label="@string/title_activity_debts"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Employees"
+            android:label="@string/title_activity_employees"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Payment"
+            android:label="@string/title_activity_payment"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Check"
+            android:label="@string/title_activity_check"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+        <activity
+            android:name=".Activites.Activites.Activites.Sells"
+            android:label="@string/title_activity_sells"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activites.Activites.Activites.Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Activites.Activites.Activites.HomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage" />
+        </activity>
+    </application>
+
+</manifest>

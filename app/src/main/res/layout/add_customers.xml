@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+
+    android:orientation="vertical"
+    >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_delete"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/customer_add"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/name"
+            android:hint="الاسم"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:background="@android:color/background_light" />
+    <EditText
+        android:layout_width="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phone"
+        android:inputType="phone"
+        android:hint="رقم الهاتف"
+        android:background="@android:color/background_light" />
+    <EditText
+        android:layout_width="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/address"
+        android:hint="العنوان"
+        android:background="@android:color/background_light" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="حفظ"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/save"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/save_button"/>
+</LinearLayout>

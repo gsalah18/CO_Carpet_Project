@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:context="com.example.gs.co_carpet_project.Activites.Activites.Activites.HomePage"
+
+    tools:showIn="@layout/activity_home_page">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:entries="@array/home"></ListView>
+
+    <!--ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/customers"
+        android:background="@drawable/home_customers"
+        android:onClick="Customers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="@drawable/sells"
+        android:onClick="Sells"
+        android:layout_below="@+id/debts"
+        android:layout_alignRight="@id/debts"
+        android:layout_marginTop="16dp"/>
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/employees"
+        android:background="@drawable/employees"
+        android:onClick="Employees"
+        android:layout_below="@+id/add_buy"
+        android:layout_alignLeft="@id/add_buy"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/stores"
+        android:background="@drawable/stores"
+        android:onClick="Stores"
+        android:layout_below="@+id/customers"
+        android:layout_alignRight="@+id/customers"
+        android:layout_marginTop="16dp"
+        />
+
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/debts"
+        android:background="@drawable/debts"
+        android:onClick="Debts"
+        android:layout_below="@+id/stores"
+        android:layout_alignRight="@+id/stores"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/add_buy"
+        android:background="@drawable/add_buy"
+        android:onClick="Buys"
+        android:layout_below="@+id/outcomes"
+        android:layout_alignLeft="@+id/outcomes"
+        android:layout_marginTop="16dp"
+         />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/outcomes"
+        android:background="@drawable/outcomes"
+        android:onClick="Outcomes"
+        android:layout_alignTop="@+id/customers"
+        android:layout_alignBottom="@+id/customers"
+        android:layout_toLeftOf="@+id/customers"
+        android:layout_marginRight="40dp"
+         />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="@drawable/catagories"
+        android:onClick="Catagories"
+        android:layout_below="@+id/employees"
+        android:layout_alignLeft="@id/employees"
+        android:layout_marginTop="16dp"
+         /-->
+
+</RelativeLayout>

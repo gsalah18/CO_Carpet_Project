@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gs.co_carpet_project.Activites.Activites.Fragments.Bills_Frag">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/id"
+            android:gravity="center"
+            android:text="رقم الفاتوره"
+            android:layout_weight=".3"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/total_price"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:text="المبلغ"
+
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/left"
+            android:text="المتبقي"
+            android:layout_weight=".3"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"></ListView>
+
+</LinearLayout>
